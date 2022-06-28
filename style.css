@@ -17,6 +17,8 @@ body, html {
 
 header {
    background-color: var(--purple-bg);
+   margin: 0;
+   padding: 0;
 }
 
 .toggle-button {
@@ -41,7 +43,7 @@ header {
 
 .logo {
     padding-top: 1em;
-    padding-left: 1em;
+    padding-left: .4em;
 }
 
 ul {
@@ -70,6 +72,7 @@ ul {
     border-bottom: 1px solid rgba(0, 0, 0, 0.7);
     display: flex;
     transition: 1s;
+    padding-left: .4em;
      
 }
 
@@ -87,19 +90,37 @@ color: #fff;
 
 
 }
-.div-pesquisa {
-    height: 2em;
+.div-search {
+    padding-top: .2em;
+   
 }
 
-.pesquisa {
+.search {
+    width: 2em;
+    height: 1.7em;
     background-color: #9e6dc2;
-    border: 1px solid red;
+    margin-bottom: -.5em;
+    border-radius: 2px;
 }
 
 
 
 main {
     background-color: var(--white);
+}
+
+.main-text {
+    font-family: 'Poppins', sans-serif;
+    background-color: #290742;
+    
+}
+
+.main-text h1 {
+    margin-top: 0;
+    
+    color: #9e6dc2;
+    text-align: center;
+    padding: 2em 5% 0 5%;
 }
 
 .navbar-links.active {
