@@ -44,6 +44,7 @@ header {
 .logo {
     padding-top: 1em;
     padding-left: 5%;
+    
 }
 
 ul {
@@ -82,49 +83,43 @@ ul {
 }
 
 .input {
-margin-left: 5%;
-background-color: var(--dark-bg);
-border-radius: 3px;
-border: none;
-height: 3em;
-color: var(--white);
-width: 60%;
-padding-left: 10%;
-padding-bottom: 2%;
-
-
+    margin-left: 5%;
+    background-color: var(--dark-bg);
+    border-radius: 3px;
+    border: none;
+    height: 2em;
+    color: var(--white);
+    width: 60%;
+    padding-left: 10%;
+    padding-top: 3%;
+    padding-bottom: 7%;
+    font-size: 1em;
 
 }
+
 .div-search {
-    
     margin-right: 5%;
     margin-left: 0;
     
     
-    
-   
 }
 
 .button-search {
     border: none;
     border-radius: 3px;
     background-color: var(--button-bg);
-    height: 3em;
-    width: 3em;
-    padding-top: -10%;
     
-    
+    width: 20%;
+    padding-bottom: 11%;
+    padding-top: 1%;
     
 }
 
-.button-search img {
-   
-   top: 50%;
-   
-   
+.svg {
+    width: auto;
+    height: auto;
+
 }
-
-
 
 .main-text {
     font-family: 'Poppins', sans-serif;
@@ -153,7 +148,6 @@ padding-bottom: 2%;
     margin-right: 5%;
     text-align: justify;
     font-weight: 400;
-    
 
 }
 
@@ -172,8 +166,6 @@ padding-bottom: 2%;
     margin: 0;
     font-size: 1.5Sem;
 }
-
-
 
 .arrow {
     height: 2em;
@@ -256,7 +248,11 @@ main {
     margin-bottom: .3em;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1150px) {
+
+    .logo {
+        padding-left: 0;
+    }
     
     .toggle-button{
         display: none;
@@ -272,7 +268,7 @@ main {
     .navbar-links {
         margin-top: 1.5em;
         display: flex;
-        font-size: .8em;
+        font-size: 1em;
         height: 2em;
         position: absolute;
         left: 40%;
@@ -357,7 +353,7 @@ main {
     }
 
     .big-b {
-        margin: 5% 5% 0 5%;
+        margin: 5% 0 0 5%;
         border: none;
     }
 
