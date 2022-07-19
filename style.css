@@ -37,14 +37,12 @@ header {
     height: 5px;
     width: 100%;
     background-color: var(--white);
-    border-radius: 10px;
-       
+    border-radius: 10px;   
 }
 
 .logo {
     padding-top: 1em;
     padding-left: 5%;
-    
 }
 
 ul {
@@ -59,13 +57,10 @@ ul {
     font-size: 2em;
     display: none; 
     width: auto;
-    
-    
 }
 
 .navbar-links li {
     list-style: none;
-    
 }
 
 .navbar-links li a {
@@ -76,7 +71,6 @@ ul {
     display: flex;
     transition: 1s;
     padding-left: 5%;
-     
 }
 
 .navbar-links a:hover {
@@ -85,14 +79,11 @@ ul {
 
 
 .div-search {
-    width: 25%;
     height: 3em;
-    
 }
 
 .div-search input {
     padding-top: .3em;
-   
 }
 
 .div-search button {
@@ -134,14 +125,12 @@ button {
     color: var(--button-bg);
     text-align: justify;
     padding: 2em 5% 0 5%;
-
 }
 
 .main-text img {
     width: 90%;
     margin-left: 5%;
-    margin-right: 5%;
-    
+    margin-right: 5%;  
 }
 
 .main-text p {
@@ -150,7 +139,6 @@ button {
     margin-right: 5%;
     text-align: justify;
     font-weight: 400;
-
 }
 
 .veja {
@@ -173,7 +161,6 @@ button {
     height: 2em;
     max-width: 2em;
     margin: 0;
-    
 }
 
 .p-desk {
@@ -186,27 +173,22 @@ button {
 
 .navbar-links.active {
     display: flex;
-    
 }
 
 main {
     background-color: var(--white);
     margin-left: 5%;
     margin-right: 5%;
-    padding-bottom: 10%;
+    padding-bottom: 2%;
 }
 
 .big {
     margin-top: 5%;
-    
     border-bottom: 2px solid var(--button-bg);
-    
 }
 
 .big img {
     width: 100%;
-    
-    
 }
 
 .big-b {
@@ -237,8 +219,7 @@ main {
 
 .post-main img{
     margin-top: 1em;
-    width: 100%;
-    
+    width: 100%; 
 }
 
 .post-main p{
@@ -283,6 +264,7 @@ main {
         position: absolute;
         text-align: right;
         padding-top: 1em;
+        width: 25%;
     }
 
     .navbar-links li {
@@ -299,8 +281,6 @@ main {
 
     .navbar-links ul {
         display: flex;
-        
-        
     }
 
     .main-text-1 {
@@ -341,8 +321,7 @@ main {
     
     .arrow {
         max-height: 20px;
-        margin-top: 5%;
-        
+        margin-top: 5%;   
     }
 
     .big-main {
@@ -397,6 +376,4 @@ main {
         width: 100%;
         height: 15em;
     }
-    
-
 }
